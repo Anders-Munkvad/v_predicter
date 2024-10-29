@@ -1,0 +1,12 @@
+
+Scrape CoinDesk - we want the title, date and content of the article.
+
+If we wanna start by looking at bitcoin, we would scrape --- https://www.coindesk.com/search?s=bitcoin
+Du kan også se flere år tilbage, hvilket er luksus, når vi skal traine
+
+Title is under: <div class = "at-headline">
+date & auther is under: <div class = "at-row">
+Content is under: <div data-module-name="article-body-no-right-rail" data-module-version="1.0.0">...</div>
+^"..." being the article content
+
+Q Learning: https://www.kaggle.com/code/itoeiji/deep-reinforcement-learning-on-stock-data
